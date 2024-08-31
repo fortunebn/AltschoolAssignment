@@ -83,7 +83,6 @@ pre {
   text-align: center;
 }
 
-/* Two Pair Line Grid */
 .name,
 .pair,
 .form-style div {
@@ -156,5 +155,37 @@ nav {
 
   .high-skill {
     font-size: 1.75rem;
+  }
+
+  .social {
+    width: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .high-skill {
+    font-size: 1.5rem;
+  }
+  
+  .form-style {
+    padding: 15px;
+  }
+
+  .social {
+    width: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form-style {
+    padding: 10px;
+  }
+
+  .high-skill {
+    font-size: 1.25rem;
+  }
+
+  .social {
+    width: 14px;
   }
 }
