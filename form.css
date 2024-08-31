@@ -142,7 +142,32 @@ nav {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .form-style {
+    max-width: 90%;
+    padding: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 15px;
+  }
+
+  .form-style {
+    padding: 20px;
+  }
+
+  .high-skill {
+    font-size: 2rem;
+  }
+
+  .social {
+    width: 20px;
+  }
+}
+
+@media (max-width: 767px) {
   .name,
   .pair,
   .form-style div {
@@ -166,7 +191,7 @@ nav {
   .high-skill {
     font-size: 1.5rem;
   }
-  
+
   .form-style {
     padding: 15px;
   }
@@ -189,3 +214,4 @@ nav {
     width: 14px;
   }
 }
+
